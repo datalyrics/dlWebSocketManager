@@ -1,0 +1,24 @@
+{
+  "name": "datalyrics-websocketmanager",
+  "version": "1.0.0",
+  "description": "A modular WebSocket server for Node.js projects (ESM, modern, reusable)",
+  "type": "module",
+  "main": "src/dlWebSocketManager.js",
+  "exports": "./src/dlWebSocketManager.js",
+  "scripts": {
+    "start:example": "node example/server.js"
+  },
+  "keywords": [
+    "websocket",
+    "nodejs",
+    "esm",
+    "modular",
+    "server"
+  ],
+  "author": "Eric Herrmann",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.16.0"
+  }
+}
